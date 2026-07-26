@@ -36,3 +36,4 @@ class Player(models.Model):
         on_delete=models.SET_NULL,
         related_name="members"
     )
+    created_at = models.DateTimeField(auto_now_add=True)
